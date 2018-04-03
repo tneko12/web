@@ -4,7 +4,7 @@ const plumber = require('gulp-plumber');
 const autoprefixer = require('gulp-autoprefixer');
 const sass = require('gulp-sass');
 
-const dest = './build';
+const dest = './docs';
 const src = './src';
 
 const config = {

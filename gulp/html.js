@@ -1,7 +1,7 @@
 const gulp = require('gulp');
 const plumber = require('gulp-plumber');
 
-const dest = './build';
+const dest = './docs';
 const src = './src';
 
 const config = {

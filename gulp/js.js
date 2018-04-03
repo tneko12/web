@@ -4,7 +4,7 @@ const plumber = require('gulp-plumber');
 const uglify = require('gulp-uglify');
 const webpack = require('gulp-webpack');
 
-const dest = './build';
+const dest = './docs';
 const src = './src';
 
 const config = {
