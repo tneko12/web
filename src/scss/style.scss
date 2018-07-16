@@ -1,5 +1,33 @@
-$color: red;
+// $color: red;
 
-div {
-    color: $color;
+// div {
+//     color: $color;
+// }
+
+.oceroframe {
+    display: flex;
+    flex-wrap: wrap;
+    width: 516px;
+    background-color: #33aa33;
+    .ver {
+        border: solid 1px #000;
+        width: calc(500px/8);
+    }
+    .hor {
+        border: solid 1px #000;
+        height: calc(500px/8);
+    }
+    .mass_0 {
+        color: #000;
+        font-size: 50px;
+        text-align: center;
+    }
+    .mass_1 {
+        color: #fff;
+        font-size: 50px;
+        text-align: center;
+    }
+    .mass_2 {
+        color: transparent;
+    }
 }

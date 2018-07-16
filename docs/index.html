@@ -11,7 +11,14 @@
     </head>
     <body>
         <div id="app">
-            {{ message }}
+            {{ocerofield}}
+            <p @click="test()">{{message}}</p>
+            <div class="oceroframe">
+                <div class="ver" v-for="data,index1 in ocerofield">
+                    <div class="hor" :class="'mass_' + i" v-for="i,index2 in data" @click="put(index1,index2)">●</div>
+                </div>
+            </div>
+            <!-- {{ message }} -->
         </div>
     </body>
     <script src="js/bundle.js"></script>

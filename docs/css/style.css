@@ -1,2 +1,21 @@
-div {
-  color: red; }
+.oceroframe {
+  display: flex;
+  flex-wrap: wrap;
+  width: 516px;
+  background-color: #33aa33; }
+  .oceroframe .ver {
+    border: solid 1px #000;
+    width: calc(500px/8); }
+  .oceroframe .hor {
+    border: solid 1px #000;
+    height: calc(500px/8); }
+  .oceroframe .mass_0 {
+    color: #000;
+    font-size: 50px;
+    text-align: center; }
+  .oceroframe .mass_1 {
+    color: #fff;
+    font-size: 50px;
+    text-align: center; }
+  .oceroframe .mass_2 {
+    color: transparent; }

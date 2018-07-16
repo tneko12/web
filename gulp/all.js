@@ -11,5 +11,11 @@ gulp.task('all', () => {
         'js');
 });
 
-gulp.task('watch', () => {
+gulp.task("watch", function() {  
+    var targets = [
+      './src/scss/**',
+      './src/js/**',
+      './src/index.html',
+    ];
+    gulp.watch(targets, ['all']);
 });
